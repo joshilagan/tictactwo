@@ -95,7 +95,7 @@ const TicTacToe = () => {
     setLock(false);
     //make the indexes empty
     data = ["","","","","","","","",""];
-    titleRef.current.innerHTML = 'Tic Tac Toe In <span>React</span>'
+    titleRef.current.innerHTML = '<span>React</span>&nbsp; Tic Tac Toe '
     //map the boxes and use innerHTML = ""
     boxArray.forEach((e)=>{
       e.current.innerHTML = "";
